@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Formulario</title>
+</head>
+<body>
+    <h2>Complete el siguiente formulario</h2>
+    <form action="">
+        <p>
+            <label for="">Nombre</label>
+            <input type="text">
+        </p>
+        <p>
+            <input type="text" placeholder="Apellido">
+        </p>
+        <p>
+            <label for="">Contraseña</label>
+            <input type="password">
+        </p>
+        <p>
+            <label for="">Sexo</label>
+            <ul>
+                <li>
+                    <input type="radio" value="mujer" name="sexo">
+                    <label for="">Mujer</label>
+                </li>
+                <li>
+                    <input type="radio" value="hombre" name="sexo">
+                    <label for="">Hombre</label>
+                </li>
+            </ul>
+        </p>
+        <p>
+            <label for="">Hobbies</label>
+            <ul>
+                <li>
+                    <input type="checkbox" name="hobbies[]" value="bailar">
+                    <label for="">Bailar</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="hobbies[]" value="cantar">
+                    <label for="">Cantar</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="hobbies[]" value="correr">
+                    <label for="">Correr</label>
+                    <li>
+                        <input type="checkbox" name="hobbies[]" value="nadar">
+                        <label for="">Nadar</label>
+                    </li>
+                </li>
+            </ul>
+        </p>
+        <p>
+            <label for="">Titulo</label>
+            <select name="" id="">
+                <option value="primario">Primario</option>
+                <option value="secundario">Secundario</option>
+                <option value="terciario">Terciario</option>
+                <option value="universitario">Universitario</option>
+            </select>
+        </p>
+        <p>
+            <label for="">Comentarios/Quejas/Sugerencias</label>
+            <textarea></textarea>
+        </p>
+        <p>
+            <textarea placeholder="Cometarios/Quejas/Sugerencias"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Guardar">
+            <input type="reset">
+        </p>
+    </form>
+</body>
+</html>

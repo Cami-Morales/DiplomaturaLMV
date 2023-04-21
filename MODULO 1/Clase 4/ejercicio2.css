@@ -1,0 +1,20 @@
+/*esto es un comentario en css*/
+
+h1{
+    color: red; /*color tipo*/
+    font-family: Arial, Helvetica, sans-serif; /*fuente tipografica*/
+    background-color: yellow;/*fondo*/
+    text-transform: uppercase;/*mayúscula*/
+    text-align: center;/*alineación del texto*/
+}
+
+h2{
+    color: blue;
+    font-size: 26px;/*tamaño de la tipografia*/
+}
+
+p{
+    color: green;
+    font-weight: bold; /*negrita*/
+    font-style: italic; /*variante italica*/
+}
