@@ -1,0 +1,55 @@
+#rojo{
+width: 300px; /*ancho*/
+height: 300px; /*alto*/
+background-color: red; /*fondo*/
+padding: 20px;
+border: 10px solid black;
+box-sizing: border-box;
+margin: 50px;
+box-shadow: -10px -10px 0px green;
+/*Eje X - Eje Y - blur - color*/ 
+border-radius: 20px;
+border-radius: 20px 0;
+}
+
+
+/*padding - margin*/
+
+/*
+padding: 5px 10px 15px 20px;
+o
+padding-top:5px;
+padding-rigth:10px;
+padding-bottom:15px;
+padding-left:20px;
+
+
+padding: 5px 15px 20px;
+o
+padding-top:5px;
+padding-right-left:15px;
+padding-botton:20px;
+
+
+
+padding: 5px 20px;
+o
+padding-top-botton:5px;
+padding-right-left:20px;
+
+
+padding: 20px;
+o
+padding-top-right-left-botton:20px;
+
+*/
+
+#azul{
+    width: 300px; /*ancho*/
+    height: 300px; /*alto*/
+    background-color: blue; /*fondo*/
+    border-right: 10px dotted yellow;
+    padding-right: 10px;
+
+
+}
