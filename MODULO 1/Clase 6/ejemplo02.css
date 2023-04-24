@@ -1,0 +1,19 @@
+/*
+font-family: 'Pacifico', cursive;
+font-family: 'Roboto', sans-serif;
+*/
+
+h1, h2{
+    color: red;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    color: blue;
+    font-family: 'Roboto', sans-serif;
+}
+
+.destacado{
+    color: green;
+    font-size: 100px;
+}
