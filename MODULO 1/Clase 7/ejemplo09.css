@@ -1,0 +1,25 @@
+.caja{
+    width: 400px;
+    height: 300px;
+    background-color: blue;
+    font-family: arial;
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    transform: rotate(25deg);
+    /*transform: rotate(-90deg);*/
+    /* transform: scale(1.5); */
+    transition: all 1s ease;
+   
+}
+
+.caja:hover{
+    transform: scale(2) rotate(-90deg); 
+    background-color: aqua;
+    
+}
+
+
+
