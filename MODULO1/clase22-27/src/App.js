@@ -8,6 +8,8 @@ import Footer from "./components/layout/Footer";
 import HomePage from './components/layout/pages/HomePage';
 import Ejemplo1 from './components/layout/pages/Ejemplo1';
 import Ejemplo2 from './components/layout/pages/Ejemplo2';
+import Ejemplo3 from './components/layout/pages/Ejemplo3';
+import CargaJson from './components/layout/pages/Ejemplo4';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
           <Route path='/' element={<HomePage/>}></Route>
           <Route path='/ejemplo1' element={<Ejemplo1/>}></Route>
           <Route path='/ejemplo2' element={<Ejemplo2/>}></Route>
+          <Route path='/ejemplo3' element={<Ejemplo3/>}></Route>
+          <Route path='/ejemplo4' element={<CargaJson/>}></Route>
         </Routes>
       </BrowserRouter>
       <Footer />

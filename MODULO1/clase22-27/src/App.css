@@ -43,3 +43,9 @@ nav ul li a{
   display: block;
   text-align: center;
 }
+
+.mapa{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
