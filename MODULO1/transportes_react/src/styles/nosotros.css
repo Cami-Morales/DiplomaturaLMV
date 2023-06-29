@@ -1,0 +1,49 @@
+.historia p {
+    font-size: 12px;
+
+}
+
+.personas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.persona {
+    width: 18%;
+    /*background-color: yellow;*/
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 10px;
+    box-sizing: border-box;
+}
+
+.persona img {
+    border-radius: 50%;
+    width: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 16px;
+}
+
+.persona h5,
+.persona h6 {
+    margin: 0;
+    color: #2e64a1;
+    font-weight: normal;
+}
+
+.persona h5 {
+    font-size: 16px;
+}
+
+.persona h6 {
+    font-size: italic;
+    font-size: 13px;
+}
+
+
+.persona p {
+    font-size: 12px;
+    color: #6b6969;
+    text-align: left;
+}
